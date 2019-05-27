@@ -13,7 +13,7 @@ Para mostrar texto se puede usa *párrafos* o *span*:
 
 El mejor uso de span es para remarcar un objeto específico que está en una linea. Y usar `<div>` para dividir el contenido en *bloques*.
 
-\*\* Styling texts\*\*
+**Styling texts**
 
 Se puede editar el estilo de untexto usando los tags HTML. El tag `<em>` hace enfasis en el texto, mientras `<strong>` resalta lo importante.
 
@@ -37,11 +37,20 @@ El output sería algo como esto:
 
 **Lista ordenada**
 
-<pre><xmp><ol>
-  <li>Limones</li>
-  <li>Tortillas</li>
-  <li>Pollo</li>
-</ol></xmp></pre>
+<xmp>
+<ol>
+<li>
+Limones
+</li>
+<li>
+Tortillas
+</li>
+<li>
+Pollo
+</li>
+</ol>
+</xmp>
+
 El output sería algo como esto:
 
 1.  Limones
