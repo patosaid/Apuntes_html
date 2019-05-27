@@ -65,8 +65,9 @@ En imágenes de puede usar el atributo `alt` , y sirve para entregar una descrip
 
 Para insertar videos se utiliza `<video>` y este tag se debe cerrar `</video>`
 
-`<video src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width = "320" height="240" controls>`
+`<video src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width = "320" height="240" controls></video>`
 
 Se puede modificar el tamaño con `width` y `height` . El atributo `controls` indica los controles básicos de un video al navegador (pausa, play , stop).
 
-<video src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width = "320" height="240" controls>
+<video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
+</video>
