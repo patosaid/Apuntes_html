@@ -24,11 +24,8 @@ Se puede editar el estilo de untexto usando los tags HTML. El tag `<em>` hace en
 
 **Lista desordenada**
 
-<pre><xmp><ul>
-  <li>Limones</li>
-  <li>Tortillas</li>
-  <li>Pollo</li>
-</ul></xmp></pre>
+`<ul>` `<li>Limones</li>` `<li>Tortillas</li>` `<li>Pollo</li>` `</ul>`
+
 El output sería algo como esto:
 
 -   Limones
