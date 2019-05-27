@@ -3,3 +3,10 @@ Mis apuntes de HTML
 Patricio Said
 
 ### Apundes desde Codecademy:
+
+#### Monstrando texto
+
+Para mostrar texto se puede usa *párrafos* o *span*:
+
+-   *Párrafo* (`<p>`) contiene un bloque de texto plano.
+-   `<span>` contiene trozos cortos de texto. Se usa para separar contenido que está dentro de otro.
