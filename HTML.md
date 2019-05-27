@@ -4,7 +4,7 @@ Patricio Said
 
 ### Apundes desde Codecademy:
 
-#### Monstrando texto
+#### Monstrar texto
 
 Para mostrar texto se puede usa *párrafos* o *span*:
 
