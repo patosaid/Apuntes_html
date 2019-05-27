@@ -4,7 +4,6 @@ output: github_document
 author: "Patricio Said"
 ---
 
-#bug
 ### Apundes desde Codecademy:
 
 #### Monstrar texto
