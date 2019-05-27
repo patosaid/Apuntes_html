@@ -6,3 +6,4 @@ Para ver los apuntes abrir el documento [HTML.md](https://github.com/patosaid/Ap
 
 ### TO DO: 
 - [ ] Cambiar tamaño de la imagen.
+- [ ] Seguir con **imagenes**
