@@ -15,7 +15,7 @@ Para mostrar texto se puede usa *párrafos* o *span*:
 
 El mejor uso de span es para remarcar un objeto específico que está en una linea. Y usar `<div>` para dividir el contenido en *bloques*. 
 
-**Styling texts**
+#### Styling texts
 
 Se puede editar el estilo de untexto usando los tags HTML. El tag `<em>` hace enfasis en el texto, mientras `<strong>` resalta lo importante.
 
@@ -24,7 +24,7 @@ Se puede editar el estilo de untexto usando los tags HTML. El tag `<em>` hace en
 
 * El tag `<br>`agrega un linea de *quiebre*.
 
-**Lista desordenada**
+#### Lista desordenada
 
 `<ul>`
 `  <li>Limones</li>`
@@ -38,7 +38,7 @@ El output sería algo como esto:
 * Tortillas
 * Pollo
 
-**Lista ordenada**
+#### Lista ordenada
 
 `<ol>
   <li>Limones</li>
@@ -52,12 +52,12 @@ El output sería algo como esto:
 2. Tortillas
 3. Pollo
 
-**Imágenes**
+#### Imágenes
 
 Se puede insertar imagen con el tag `<img>`. Este tag se cierra solo, no requiere un slash `/`. 
 El tag `<img>` requiere un atributo llamado `src` para determinar la fuente de la imagen (dirección). En este caso, el valor de `src` debe ser *uniform resourse locator* (URL). 
 
-**Ejemplo de imagen:**
+#### Ejemplo de imagen:
 
 Con `<img src = https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg>` resulta:
 
@@ -73,7 +73,7 @@ En imágenes de puede usar el atributo `alt` , y sirve para entregar una descrip
 
 <img src = https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg alt = "oso" />
 
-**Videos**
+#### Videos
 
 Para insertar videos se utiliza `<video>` y este tag se debe cerrar `</video>` 
 
