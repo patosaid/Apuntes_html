@@ -4,7 +4,9 @@ Para ver los apuntes abrir el documento [HTML.md](https://github.com/patosaid/Ap
 
 ![a](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.decalserpent.com%2Fassets%2Fimages%2Fdecals%25201-500%2FSP-00427-black.jpg&f)
 
-<img src= "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.decalserpent.com%2Fassets%2Fimages%2Fdecals%25201-500%2FSP-00427-black.jpg&f" width = "100" heigth="100" />
+<img src= "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.decalserpent.com%2Fassets%2Fimages%2Fdecals%25201-500%2FSP-00427-black.jpg&f" width = "300" heigth="300" />
 
 ### TO DO: 
-- [ ] Cambiar tamaño de la imagen.
+- [x] Insertar imagen.
+- [x] Cambiar tamaño de la imagen.
+- [ ] Centrar imagen.
