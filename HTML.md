@@ -37,19 +37,7 @@ El output sería algo como esto:
 
 **Lista ordenada**
 
-<xmp>
-<ol>
-<li>
-Limones
-</li>
-<li>
-Tortillas
-</li>
-<li>
-Pollo
-</li>
-</ol>
-</xmp>
+`<ol>   <li>Limones</li>   <li>Tortillas</li>   <li>Pollo</li> </ol>`
 
 El output sería algo como esto:
 

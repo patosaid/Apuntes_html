@@ -40,11 +40,11 @@ El output sería algo como esto:
 
 **Lista ordenada**
 
-<xmp><ol>
+`<ol>
   <li>Limones</li>
   <li>Tortillas</li>
   <li>Pollo</li>
-</ol></xmp>
+</ol>`
 
 El output sería algo como esto:
 
