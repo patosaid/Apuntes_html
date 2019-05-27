@@ -52,6 +52,17 @@ El output sería algo como esto:
 2. Tortillas
 3. Pollo
 
+**Imágenes**
+
+Se puede insertar imagen con el tag `<img>`. Este tag se cierra solo, no requiere un slash `/`. 
+El tag `<img>` requiere un atributo llamado `src` para determinar la fuente de la imagen (dirección). En este caso, el valor de `src` debe ser *uniform resourse locator* (URL). 
+
+**Ejemplo de imagen:**
+
+Con `<img src = https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg>` resulta:
+
+<img src = https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg>
+
 
 
 
