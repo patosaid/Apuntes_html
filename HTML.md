@@ -82,9 +82,7 @@ Esta declaración es una instrucción y debe ser ser la primera linea de código
 
 Para crear una estructura y contenido se debe abrir y cerrar el tag `<html>` después de la declaración `<!DOCTYPE html>`.
 
-\`
-<!DOCTYPE html>
-<html>
+`<!DOCTYPE html>` `<html>` `` ` ``
 </html>
 \`
 
