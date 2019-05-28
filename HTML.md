@@ -69,8 +69,6 @@ Para insertar videos se utiliza `<video>` y este tag se debe cerrar `</video>`
 
 Se puede modificar el tamaño con `width` y `height` . El atributo `controls` indica los controles básicos de un video al navegador (pausa, play , stop).
 
-<video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
-</video>
 ### Creando Documentos estandar en HTML
 
 Los archivos HTML necesitan ciertos elementos para preparar un documento apropiadamente. Le puedes indicar al navegador que está trabajando con HTML empezando tu documento con una *declaración de tipo de documento*:
