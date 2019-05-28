@@ -78,7 +78,7 @@ Los archivos HTML necesitan ciertos elementos para preparar un documento apropia
 
 > `<!DOCTYPE html>`
 
-Esta declaración es una instrucción y debe ser ser la primera linea de código del documento HTML. `<!DOCTYPE html>` hace referencia a HTML5. Un documento en HTML se debe guardar como **.html¨**. La declaración `<!DOCTYPE html>` le entrega al navegador dos informaciones: el tipo de documento y la versión.
+Esta declaración es una instrucción y debe ser ser la primera linea de código del documento HTML. `<!DOCTYPE html>` hace referencia a HTML5. Un documento en HTML se debe guardar como **.html**. La declaración `<!DOCTYPE html>` le entrega al navegador dos informaciones: el tipo de documento y la versión.
 
 Para crear una estructura y contenido se debe abrir y cerrar el tag `<html>` después de la declaración `<!DOCTYPE html>`.
 

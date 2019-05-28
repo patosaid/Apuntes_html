@@ -84,14 +84,14 @@ Se puede modificar el tamaño con `width` y `height` . El atributo `controls` in
 <video src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width = "320" height="240" controls></video>
 
 
-## Creando Documentos estandar en HTML  
+##Creando Documentos estandar en HTML  
 
 
 Los archivos HTML necesitan ciertos elementos para preparar un documento apropiadamente. Le puedes indicar al navegador que está trabajando con HTML empezando tu documento con una *declaración de tipo de documento*: 
 
 > `<!DOCTYPE html>`
 
-Esta declaración es una instrucción y debe ser ser la primera linea de código del documento HTML. `<!DOCTYPE html>` hace referencia a HTML5. Un documento en HTML se debe guardar como **.html¨**. La declaración `<!DOCTYPE html>` le entrega al navegador dos informaciones: el tipo de documento y la versión. 
+Esta declaración es una instrucción y debe ser ser la primera linea de código del documento HTML. `<!DOCTYPE html>` hace referencia a HTML5. Un documento en HTML se debe guardar como **.html**. La declaración `<!DOCTYPE html>` le entrega al navegador dos informaciones: el tipo de documento y la versión. 
 
 Para crear una estructura y contenido se debe abrir y cerrar el tag `<html>` después de la declaración `<!DOCTYPE html>`. 
 
