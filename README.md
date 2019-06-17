@@ -5,6 +5,8 @@ Para ver los apuntes abrir el documento [HTML.md](https://github.com/patosaid/Ap
 
 <img src= "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.decalserpent.com%2Fassets%2Fimages%2Fdecals%25201-500%2FSP-00427-black.jpg&f" width = "300" heigth="300" />
 
+* la imagen no carga entera... no tengo p%&a idea
+
 ### TO DO: 
 - [x] Insertar imagen.
 - [x] Cambiar tamaño de la imagen.
