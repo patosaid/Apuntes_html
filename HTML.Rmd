@@ -109,11 +109,41 @@ Todo lo que esté dentro del tag `<html>` será interpretado como HTML.
 
 ### El HEAD
 
-El tag `<HEAD` contiene *metadata* de la web, es decir, información de la página y que no es mostrada. Frecuentemente se pone depués del tag `<html>`.
+El tag `<HEAD` contiene *metadata* de la web, es decir, información de la página y que no es mostrada. Frecuentemente se pone después del tag `<html>`.
 
 ### Título de la página
 
 El `<title>` va siempre dentro del `<head>` y se muestra en la pestaña del navegador.
+
+### Linkeando a otra página web
+
+Se puede agregar links a una web con un *anchor* `<a>` e incluir el texto y en parámetro `href` va la URL: `<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>`
+
+### Abriendo links en una nueva ventana
+
+Para abrir una nueva ventana, se utiliza el atributo `target` que requiere el valor `_blank`. El atributo `target` se agrega directamente en el elemento `<a>` al igual que el atributo `href`: `<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>`.
+
+### Linkiando a una página interna
+
+Por ejemplo el directorio de un proyecto es el siguiente:
+
+```{r eval = F}
+project-folder/  
+|—— about.html  
+|—— contact.html  
+|—— index.html
+```
+
+
+Se puede linkear paginas usando un *path relativo* :
+
+`<a href="./contact.html">Contact</a>`
+
+Un path relativo es un nombre de archivo que muestra el path local. El `./` le dice al navegador que mire en el directorio actual.
+
+```{r include= F}
+# continuar en https://www.codecademy.com/courses/learn-html/lessons/common-html-elements/exercises/linking-at-will-html?action=resume_content_item
+```
 
 
 
