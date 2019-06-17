@@ -30,12 +30,13 @@ Se puede editar el estilo de untexto usando los tags HTML. El tag `<em>` hace en
 * El tag `<br>`agrega un linea de *quiebre*.
 
 ### Lista desordenada
-
+```{r eval = F}
 `<ul>`
 `  <li>Limones</li>`
 `  <li>Tortillas</li>`
 `  <li>Pollo</li>`
 `</ul>`
+```
 
 El output sería algo como esto:
 
@@ -44,12 +45,13 @@ El output sería algo como esto:
 * Pollo
 
 ### Lista ordenada
-
+```{r eval = F}
 `<ol>
   <li>Limones</li>
   <li>Tortillas</li>
   <li>Pollo</li>
 </ol>`
+```
 
 El output sería algo como esto:
 
