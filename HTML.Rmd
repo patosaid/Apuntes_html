@@ -1,6 +1,6 @@
 ---
 title: "Mis apuntes de HTML"
-output: html_document
+output: github_document
 author: "Patricio Said"
 ---
 
@@ -110,7 +110,7 @@ El tag `<HEAD` contiene *metadata* de la web, es decir, información de la pági
 
 El `<title>` va siempre dentro del `<head>` y se muestra en la pestaña del navegador.
 
-
+# HOLA
 
 
 
