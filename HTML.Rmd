@@ -1,12 +1,16 @@
 ---
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_file = paste0(dirname(inputFile),'/docs/index.html')) }) # aquí se fijó el nombre del documento generado en rmarkdown y la dirección '/docs/index.html' 
 title: "Mis apuntes de HTML"
 output: 
   html_document:
+    output_file: "index2.html"
     toc: true
     toc_float: true
-author: "Patricio Said"
+    theme: united
+    highlight: tango
 ---
 
+                        
 # Apundes desde Codecademy:
 
 ## Monstrar texto
