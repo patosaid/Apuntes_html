@@ -1,6 +1,6 @@
 ---
 title: "Mis apuntes de HTML"
-output: github_document
+output: html_document
 author: "Patricio Said"
 ---
 
