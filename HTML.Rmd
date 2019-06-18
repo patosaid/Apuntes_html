@@ -5,8 +5,8 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: yeti
-    highlight: kate #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
+    theme: flatly
+    highlight: tango #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
 ---
 
 # Apundes desde Codecademy: 
