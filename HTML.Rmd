@@ -5,11 +5,11 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
-    highlight: tango
+    theme: yeti
+    highlight: kate #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
 ---
 
-# Apundes desde Codecademy:
+# Apundes desde Codecademy: 
 
 ## Monstrar texto
 
@@ -91,7 +91,7 @@ Se puede modificar el tamaño con `width` y `height` . El atributo `controls` in
 
 
 
-## Creando Documentos estandar en HTML  
+# Creando Documentos estandar en HTML  
 
 
 Los archivos HTML necesitan ciertos elementos para preparar un documento apropiadamente. Le puedes indicar al navegador que está trabajando con HTML empezando tu documento con una *declaración de tipo de documento*: 
@@ -117,7 +117,7 @@ El tag `<HEAD` contiene *metadata* de la web, es decir, información de la pági
 
 El `<title>` va siempre dentro del `<head>` y se muestra en la pestaña del navegador.
 
-### Linkeando a otra página web
+### Linkieando a otra página web
 
 Se puede agregar links a una web con un *anchor* `<a>` e incluir el texto y en parámetro `href` va la URL: `<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>`
 
@@ -125,7 +125,7 @@ Se puede agregar links a una web con un *anchor* `<a>` e incluir el texto y en p
 
 Para abrir una nueva ventana, se utiliza el atributo `target` que requiere el valor `_blank`. El atributo `target` se agrega directamente en el elemento `<a>` al igual que el atributo `href`: `<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>`.
 
-### Linkiando a una página interna
+### Linkeando a una página interna
 
 Por ejemplo el directorio de un proyecto es el siguiente:
 
@@ -148,6 +148,7 @@ Un path relativo es un nombre de archivo que muestra el path local. El `./` le d
 ```
 
 
-
-
-
+<div class = "l-page">
+<iframe src="https://psaid.shinyapps.io/AInsigne/" width="100%" height="900px"
+style="border:none;"></iframe>
+</div>
