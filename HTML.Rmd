@@ -5,8 +5,8 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: flatly
-    highlight: tango #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
+    theme: cosmo 
+#    highlight: tango #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
 ---
 
 # Apundes desde Codecademy: 
@@ -149,6 +149,6 @@ Un path relativo es un nombre de archivo que muestra el path local. El `./` le d
 
 
 <div class = "l-page">
-<iframe src="https://psaid.shinyapps.io/AInsigne/" width="100%" height="900px"
+<iframe src="https://psaid.shinyapps.io/AInsigne/" width="120%" height="900px"
 style="border:none;"></iframe>
 </div>
