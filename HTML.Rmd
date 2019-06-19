@@ -5,8 +5,9 @@ output:
   html_document:
     toc: true
     toc_float: true
+    toc_depth: 3
     theme: cosmo 
-#    highlight: tango #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
+    highlight: tango #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, and textmate
 ---
 
 # Apundes desde Codecademy: 
@@ -31,11 +32,11 @@ Se puede editar el estilo de untexto usando los tags HTML. El tag `<em>` hace en
 
 ### Lista desordenada
 ```{r eval = F}
-`<ul>`
-`  <li>Limones</li>`
-`  <li>Tortillas</li>`
-`  <li>Pollo</li>`
-`</ul>`
+<ul>
+  <li>Limones</li>
+  <li>Tortillas</li>
+  <li>Pollo</li>
+</ul>
 ```
 
 El output sería algo como esto:
@@ -46,11 +47,11 @@ El output sería algo como esto:
 
 ### Lista ordenada
 ```{r eval = F}
-`<ol>
+<ol>
   <li>Limones</li>
   <li>Tortillas</li>
   <li>Pollo</li>
-</ol>`
+</ol>
 ```
 
 El output sería algo como esto:
@@ -147,6 +148,47 @@ Un path relativo es un nombre de archivo que muestra el path local. El `./` le d
 # continuar en https://www.codecademy.com/courses/learn-html/lessons/common-html-elements/exercises/linking-at-will-html?action=resume_content_item
 ```
 
+### Link con textos
+
+```{r eval = F}
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">Prickly Pear</a>
+```
+
+Con esta técnica es posible convertir imagenes en links solo agregando envolviendo el tag de imagen `<img>` con el elemento `<a>`.  
+
+```{r eval = F}
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="#" alt="A red prickly pear fruit"/></a>
+```
+
+
+### Link a la misma página  
+
+Si queremos que el usuario se mueva entre secciones específicas dentro de la misma página, se debe usar el `id`.  
+
+```{r eval = F}
+<p id="top">This is the top of the page!</p>
+<h1 id="bottom">This is the bottom! </h1>
+```
+
+En el ejemplo anterior, el elemento `<p>` se le asignó un `id` de "top". Un `id` debería ser descriptivo para ser facil de recordar su propósito.  El *target* (destino, creo) es un string que contiene el caracter `#` y el elemento `id` del *target*:  
+
+```{r eval = F}
+<ol>
+  <li><a href="#top">Top</a></li>
+  <li><a href="#bottom">Bottom</a></li>
+</ol>
+```
+
+En el ejemplo anterior, los links `<p id="top">` y `<h1 id="bottom">` se ensamblaron en una lista ordenada. Estos links aparecen en el navegador como lista enumerada de links. Un `id` ayuda a organizar el contenido en un `div`. 
+
+### Comentarios   
+ <!-- comentario--> 
+ 
+Los comentarios en HTML se escriben asi: `<!-- and end with -->`
+
+# Recursos
+
+* Lista de tags de HTML : https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 <div class = "l-page">
 <iframe src="https://psaid.shinyapps.io/AInsigne/" width="120%" height="900px"
